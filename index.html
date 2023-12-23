@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="conteiner header-content">
+            <div class="logo">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation-item"><a href="#">HOME</a></li>
+                    <li class="header-navigation-item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation-item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation-item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation-item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation-item"><a href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <a class="number" href="#">+7 (928) 768-32-39</a>
+            <button class="button header-button">Request a call</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="conteiner">
+                <div class="conteiner hero-content">
+                    <h1 class="title">
+                        Turnkey Repair in the<br>
+                        city of <span class="rostov">Rostov-on-Don</span>
+                    </h1>
+                    <p class="hero-text">
+                        Get ready-made turnkey repairs on time<br>
+                        with work time saving up to 45 days and 20% from<br>
+                        cost of materials due to the organization of work<br>
+                    </p>
+                    <button class="button hero-button">CALCULATE THE COST</button>
+                    <button class="button hero-button transparent">SUBMIT YOUR APPLICATION</button>
+                </div>
+            </div>
+        </section>
+        <section class="completed-projects">
+            <div class="conteiner">
+                <div class="conteiner completed-projects-content">
+                    <div class="completed-projects-description">
+                        <h1 class="title-completed-projects">
+                            Completed<br>
+                            projects
+                        </h1>
+                        <p class="completed-projects-text">
+                            Only a small part of the work performed by our company is presented<br>
+                            on the site. For 14 years on in the construction<br> 
+                            market we have made happy more than 1000 families<br>
+                        </p>
+                        <div class="slider-container">
+                            <div class="slider">
+                                <img src="./images/image%2.1.jpg" alt="">
+                                <img src="./images/imgonline-com-ua-Resize-J4aoWOuVaDMn.jpg" alt="">
+                                <img src="./images/imageSlider.jpg" alt="">
+                            </div>
+                            <button class="prev-button"><img src="./images/sliderButtonLeft.jpg" alt="" srcset=""></button>
+                            <button class="next-button"><img src="./images/sliderButtonRight.jpg" alt="" srcset=""></button>
+                        </div>
+                        <div class="completed-projects-info" id="projectsBox1">
+                            <div>
+                                <h1>City:</h1>
+                                <p>Rostov-on-Don<br>
+                                   LCD admiral</p>
+                                </div>
+                                <div>
+                                <h1>apartment area:</h1>
+                                <p>81 m2</p>
+                            </div>
+                            <div>
+                                <h1>Repair time:</h1>
+                                <p>3.5 months</p>
+                            </div>
+                            <div>
+                                <h1>Repair Cost:</h1>
+                                <p>Upon request</p>
+                            </div>
+                        </div>
+                        <div class="completed-projects-info" id="projectsBox2">
+                            <div>
+                                <h1>City:</h1>
+                                <p>text2</p>
+                                </div>
+                                <div>
+                                <h1>apartment area:</h1>
+                                <p>text2</p>
+                            </div>
+                            <div>
+                                <h1>Repair time:</h1>
+                                <p>text2</p>
+                            </div>
+                            <div>
+                                <h1>Repair Cost:</h1>
+                                <p>text2</p>
+                            </div>
+                        </div>
+                        <div class="completed-projects-info" id="projectsBox3">
+                            <div>
+                                <h1>City:</h1>
+                                <p>text3</p>
+                                </div>
+                                <div>
+                                <h1>apartment area:</h1>
+                                <p>text3</p>
+                            </div>
+                            <div>
+                                <h1>Repair time:</h1>
+                                <p>text3</p>
+                            </div>
+                            <div>
+                                <h1>Repair Cost:</h1>
+                                <p>text3</p>
+                            </div>
+                        </div>
+                        <div class="form_radio_group">
+                            <button class="arrow-left" id="arrow-left" onclick="arrowLeft()"></button>
+                            <label class="label" for="radioProjects1"></label>
+                            <input type="radio" class="radio" name="radio2" id="radioProjects1" checked>
+                            <label class="label" for="radioProjects2"></label>
+                            <input type="radio" class="radio" name="radio2" id="radioProjects2">      
+                            <label class="label" for="radioProjects3"></label>
+                            <input type="radio" class="radio" name="radio2" id="radioProjects3">
+                            <button class="arrow-right" id="arrow-right" onclick="arrowRight()"></button>
+                        </div>
+                    </div>
+                    <div class="completed-projects-examples">
+                        <div class="completed-projects-info-visualization">
+                            <p class="completed-projects-info-visualization-1 on" id="infoProjects1">Rostov-on-Don, Admiral</p>
+                            <p class="completed-projects-info-visualization-2 off" id="infoProjects2">Sochi Thieves</p>
+                            <p class="completed-projects-info-visualization-3 off" id="infoProjects3">Rostov-on-Don Patriotic</p>
+                        </div>
+                        <div class="completed-projects-examples-img" id="imgProjects1">
+                            <img src="./images/image%2.1.jpg">
+                        </div>
+                        <div class="completed-projects-examples-img" id="imgProjects2">
+                            <img src="./images/imgonline-com-ua-Resize-J4aoWOuVaDMn.jpg">
+                        </div>
+                        <div class="completed-projects-examples-img" id="imgProjects3">
+                            <img src="./images/image%2.1.jpg">
+                        </div>
+                    </div>
+                </div>    
+            </div>            
+        </section>
+        <section class="online-control">
+            <div class="conteiner">
+                <div class="online-control-conteiner">
+                    <h1>
+                        online control
+                    </h1>
+                    <div class="icon">
+                        <img src="./images/Rectangle%6.7.png" alt="">
+                        <img src="./images/online-control.svg" alt="">
+                        <img src="./images/Rectangle%6.7.png" alt="">
+                    </div>
+                    <div class="video">
+                        <video id="myVideo" src="./video/krasivoe-i-korotkoe-video-priroda_(VIDEOMIN.NET).mp4" width="817" height="434" poster="./images/video.jpg"></video>
+                    </div>
+                    <div class="button-video">
+                        <button id="playButton"><img src="./images/play.png" alt="" srcset=""></button>
+                    </div>
+                    <div class="online-control-rectagle">
+                        <img src="./images/Rectangle%6.9.jpg" alt="">
+                    </div>
+                    <p class="allDevice">
+                        At each facility, a camera is installed that broadcasts the progress of work on the<br>
+                        clock. At any time, you can go to our website and monitor the progress of work in<br>
+                        your apartment. You can watch the live broadcast from one of our facilities!<br>
+                        Leave a request below and you will receive a link to the broadcast.
+                    </p>
+                    <p class="mobile">
+                        At each facility, a camera is installed that broadcasts the progress of<br>
+                        work on the clock. At any time, you can go to our website and<br>
+                        monitor the progress of work in your apartment.<br>
+                        You can watch the live broadcast from one of our facilities!<br>
+                        Leave a request below and you will receive a link to the broadcast.
+                    </p>
+                    <div class="feedback">
+                        <div class="feedback-conteiner">
+                            <div class="text-field">
+                                <input class="text-field__input" type="name" name="name" value="What is your name:">
+                                <label class="text-field__label" for="name">Name</label>
+                            </div>
+                            <div class="text-field">
+                                <input class="text-field__input" type="name" name="name" value="Your phone number:">
+                                <label class="text-field__label" for="name">Phone</label>
+                            </div>
+                            <button id="feedback-button" class="button hero-button">
+                                Submit
+                            </button>
+                        </div>     
+                    </div>
+                    <div class="first-checkbox">
+                        <label class="label">
+                          <input type="checkbox" class="checkbox" >
+                          <span class="fake"></span>
+                          <span class="text">I agree to the processing of personal data.</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tyres-of-repair">
+            <div class="conteiner">
+                <h1>
+                    TYPES OF REPAIR
+                </h1>
+                <div class="icon">
+                    <img src="./images/Rectangle%6.7.png" alt="">
+                    <img src="./images/tyres%of%repair%icon.svg" alt="">
+                    <img src="./images/Rectangle%6.7.png" alt="">
+                </div>
+                <div class="tyres-of-repair-price">
+                    <div class="tyres-of-repair-price-conteiner">
+                        <div>
+                            <img src="./images/Redecorating.jpg" alt="">
+                        </div>
+                        <div class="tyres-of-repair-price-work">
+                            <h2>
+                                Redecorating
+                            </h2>
+                            <p>
+                                • Dismantling of old coatings<br>
+                                • Wallpapering<br>
+                                • Painting walls and ceilings<br>
+                                • Laying flooring<br>
+                                • Replacing plumbing<br>
+                                • Replacing sockets and switches<br>
+                                • Replacing doors<br>
+                            </p>
+                            <div class="tyres-of-repair-price-for-m2">
+                                <h3>
+                                    from 900 rub / m2
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tyres-of-repair-price-conteiner">
+                        <div>
+                            <img src="./images/overhaul.jpg" alt="">
+                        </div>
+                        <div class="tyres-of-repair-price-work">
+                            <h2>
+                                Overhaul
+                            </h2>
+                            <p>
+                                • Dismantling of old coatings<br>
+                                • Wallpapering<br>
+                                • Painting walls and ceilings<br>
+                                • Laying flooring<br>
+                                • Replacing plumbing<br>
+                                • Replacing sockets and switches<br>
+                                • Replacing doors<br>
+                            </p>
+                            <div class="tyres-of-repair-price-for-m2">
+                                <h3>
+                                    from 1800 rub / m2
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tyres-of-repair-price-conteiner">
+                        <div>
+                            <img src="./images/Designer%Repair.jpg" alt="">
+                        </div>
+                        <div class="tyres-of-repair-price-work">
+                            <h2>
+                                Designer Repair
+                            </h2>
+                            <p>
+                                • Dismantling of old coatings<br>
+                                • Wallpapering<br>
+                                • Painting walls and ceilings<br>
+                                • Laying flooring<br>
+                                • Replacing plumbing<br>
+                                • Replacing sockets and switches<br>
+                                • Replacing doors<br>
+                            </p>
+                            <div class="tyres-of-repair-price-for-m2">
+                                <h3>
+                                    from 4000 rub / m2
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tyres-of-repair-advantages-numbvers-contacts">
+                    <div class="tyres-of-repair-advantages">
+                        <div class="tyres-of-repair-advantages-conteiner">
+                            <div class="tyres-of-repair-advantages-numbvers">
+                                <h1>01</h1>
+                            </div>
+                            <div>
+                                <p>Our specialist will arrive for measurements per day<br>
+                                    contact, or appoint a date convenient for you</p>
+                            </div>
+                        </div>
+                        <div class="tyres-of-repair-advantages-conteiner">
+                            <div class="tyres-of-repair-advantages-numbvers">
+                                <h1>02</h1>
+                            </div>
+                            <p>Free metering</p>
+                        </div>
+                        <div class="tyres-of-repair-advantages-conteiner">
+                            <div class="tyres-of-repair-advantages-numbvers">
+                                <h1>03</h1>
+                            </div>
+                            <p>Free consultation</p>
+                        </div>
+                        <div class="tyres-of-repair-advantages-conteiner">
+                            <div class="tyres-of-repair-advantages-numbvers">
+                                <h1>04</h1>
+                            </div>
+                            <p>Get a cost estimate and <br>
+                                the timing of your future repairs</p>
+                        </div>
+                    </div> 
+                    <div class="tyres-of-repair-advantages-contacts">
+                        <p>Leave a request for free <br>
+                            departure of the measurer</p>
+                        <div class="text-field-contacts">
+                            <input class="text-field-contact__input" type="name" name="name" value="What is your name:">
+                            <label class="text-field-contact__label" for="name">Name</label>
+                        </div>
+                        <div class="text-field-contacts">
+                            <input class="text-field-contact__input" type="name" name="number" value="Your phone number:">
+                            <label class="text-field-contact__label" for="number">Phone</label>
+                        </div>
+                        <div class="text-field-contacts">
+                            <input class="text-field-contact__input" type="name" name="Email" value="Your email:">
+                            <label class="text-field-contact__label" for="Email">Email</label>
+                        </div>
+                        <div class="first-checkbox-tyres-of-repair">
+                            <label class="label">
+                              <input type="checkbox" class="checkbox" >
+                              <span class="fake"></span>
+                              <span class="text-tyres-of-repair">I agree to the processing of personal data.</span>
+                            </label>
+                        </div>
+                        <button class="button hero-button tyres-of-repair-button">
+                            Call the measurer
+                        </button>
+                        <div class="pig">
+                            <div>
+                                <img src="./images/$.png" alt="">
+                            </div>
+                            <div>
+                                <p>Help save 10 - 20% of the <br>
+                                    cost of materials</p>
+                            </div>
+                        </div>  
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <section class="realize-mobile">
+            <h1>
+                We realize your <br>
+                wildest fantasies
+            </h1>
+            <div class="slider-container">
+                <div class="slider-realize">
+                    <img src="./images/American%classic%1.png" alt="">
+                    <img src="./images/1.jpg" alt="">
+                    <img src="./images/American%classic%2.png" alt="">
+                </div>
+                <button class="prev-button-realize"><img src="./images/sliderButtonLeft.jpg" alt="" srcset=""></button>
+                <button class="next-button-realize"><img src="./images/sliderButtonRight.jpg" alt="" srcset=""></button>
+            </div>
+        </section>
+        <section class="realize">
+            <div class="conteiner">
+                <div class="realize-conteiner">
+                    <div class="realize-conteiner-radio-all">
+                        <div>
+                            <h1>
+                                We realize your <br>
+                                wildest fantasies
+                            </h1>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio1" name="radio1" type="radio" checked/>
+                            <label for="radio1">American classic</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio2" name="radio1" type="radio"/>
+                            <label for="radio2">Empire</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio3" name="radio1" type="radio"/>
+                            <label for="radio3">Classical</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio4" name="radio1" type="radio"/>
+                            <label for="radio4">Loft</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio5" name="radio1" type="radio"/>
+                            <label for="radio5">Minimalism</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio6" name="radio1" type="radio"/>
+                            <label for="radio6">Provence</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio7" name="radio1" type="radio"/>
+                            <label for="radio7">Romanticism</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio8" name="radio1" type="radio"/>
+                            <label for="radio8">Scandinavian style</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio9" name="radio1" type="radio"/>
+                            <label for="radio9">Mediterranean style</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio10" name="radio1" type="radio"/>
+                            <label for="radio10">High tech</label>
+                        </div>
+                        <div class="realize-conteiner-radio">
+                            <input id="radio11" name="radio1" type="radio"/>
+                            <label for="radio11">Eclecticism</label>
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box1">
+                        <div class="realize-conteiner-img-1">
+                            <img src="./images/American%classic%1.png" alt="">
+                            <img src="./images/American%classic%2.png" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="./images/American%classic%3.png" alt="">
+                            <img src="./images/American%classic%4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box2">
+                        <div class="realize-conteiner-img-1">
+                            <img src="./images/1.jpg" alt="">
+                            <img src="./images/2.jpg" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="./images/3.jpg" alt="">
+                            <img src="./images/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box3">
+                        <div class="realize-conteiner-img-1">
+                            <img src="./images/American%classic%1.png" alt="">
+                            <img src="./images/American%classic%2.png" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="./images/American%classic%3.png" alt="">
+                            <img src="./images/American%classic%4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box4">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box5">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box6">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box7">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box8">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box9">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box10">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                    <div class="realize-conteiner-img" id="box11">
+                        <div class="realize-conteiner-img-1">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                        <div class="realize-conteiner-img-2">
+                            <img src="#" alt="">
+                            <img src="#" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <section class="conteiner">
+            <div class="clients">
+                <h1>our clients</h1>
+                <div class="icon">
+                    <img src="./images/our%clients.png" alt="">
+                </div>
+                <p>80% of our customers recommend us to their <br>
+                    friends and family.</p>
+                <div class="clients-example">
+                    <div class="clients-example-interview">
+                        <div class="clients-example-interview-content">
+                            <img class="img" src="./images/Maria.png" alt="">
+                            <h1>Fedosova Maria <br>
+                                Konstantinovna</h1>
+                        </div>
+                        <div class="clients-example-interview-content-p">
+                            <p>I want to thank the guys for their work. We put your <br>
+                                shower part in repair. I am very grateful that I referred <br>
+                                to the repair as to my own. Great thanks I express the <br>
+                                project to Georgia for its professionalism and approach.<br>
+                                The repair process was turned out in terms, faster than <br>
+                                anticipated. Team mobile and professional. Works <br>
+                                performed qualitatively without comments. Quality <br>
+                                satisfied. Prices democratic. I recommend these <br>
+                                masters.</p>
+                        </div>
+                        <div class="clients-example-interview-price">
+                            <div class="clients-example-interview-price-square-1">
+                                <img src="./images/Group%21.4.png" alt="">
+                                <p>40 m2</p>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="clients-example-interview-price-square-2">
+                                <img src="./images/Group%21%5.svg" alt="">
+                                <p>48 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-example-interview">
+                        <div class="clients-example-interview-content">
+                            <img class="img" src="./images/Sergey.png" alt="">
+                            <h1>Afanasyev Sergey <br>
+                                 Alexandrovich</h1>
+                        </div>
+                        <div class="clients-example-interview-content-p">
+                            <p>I want to thank the guys for their work. We put your <br>
+                                shower part in repair. I am very grateful that I referred <br>
+                                to the repair as to my own. Great thanks I express the <br>
+                                project to Georgia for its professionalism and approach.<br>
+                                The repair process was turned out in terms, faster than<br>
+                                anticipated. Team mobile and professional.<br>
+                                Works performed qualitatively without comments. Quality<br> 
+                                satisfied. Prices democratic. I recommend these <br>
+                                masters.</p>
+                        </div>
+                        <div class="clients-example-interview-price">
+                            <div class="clients-example-interview-price-square-1">
+                                <img src="./images/Group%21.4.png" alt="">
+                                <p>90 м2</p>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="clients-example-interview-price-square-2">
+                                <img src="./images/Group%21%5.svg" alt="">
+                                <p>128 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clients-example-interview">
+                        <div class="clients-example-interview-content">
+                            <img class="img" src="./images/Egor.png" alt="">
+                            <h1>Kiriev Egor <br>
+                                 Leonidovich</h1>
+                        </div>
+                        <div class="clients-example-interview-content-p">
+                            <p>I want to thank the guys for their work. We put your <br>
+                                shower part in repair. I am very grateful that I referred <br>
+                                to the repair as to my own. Great thanks I express the <br>
+                                project to Georgia for its professionalism and approach.<br>
+                                The repair process was turned out in terms, faster than <br>
+                                anticipated. Team mobile and professional. Works <br>
+                                performed qualitatively without comments. Quality <br>
+                                satisfied. Prices democratic. I recommend these <br>
+                                masters.</p>
+                        </div>
+                        <div class="clients-example-interview-price">
+                            <div class="clients-example-interview-price-square-1">
+                                <img src="./images/Group%21.4.png" alt="">
+                                <p>56 м2</p>
+                            </div>
+                            <div class="vertical-line"></div>
+                            <div class="clients-example-interview-price-square-2">
+                                <img src="./images/Group%21%5.svg" alt="">
+                                <p>86 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="conteiner">
+            <div class="questions-map">
+                <div class="questions">
+                    <h1>
+                        have any questions?
+                    </h1>
+                    <div class="questions-namber">
+                        <div class="text-field-contacts-1">
+                            <input class="text-field-contact__input-1" type="name" name="name" value="What is your name:">
+                            <label class="text-field-contact__label-1" for="name">Name</label>
+                        </div>
+                        <div class="text-field-contacts-1">
+                            <input class="text-field-contact__input-1" type="name" name="number" value="Your phone number:">
+                            <label class="text-field-contact__label-1" for="number">Phone</label>
+                        </div>
+                    </div>
+                    <div class="questions-namber-1">
+                        <div class="text-field-contacts-2">
+                            <input class="text-field-contact__input-2" type="name" name="number" value="I want to know:">
+                            <label class="text-field-contact__label-2" for="number">Question</label>
+                        </div>
+                    </div>
+                    <div class="questions-namber-checkbox">
+                        <label class="label">
+                          <input type="checkbox" class="checkbox" >
+                          <span class="fake"></span>
+                          <span class="text-tyres-of-repair">I agree to the processing of personal data.</span>
+                        </label>
+                    </div>
+                    <button class="button hero-button questions-namber-button">
+                        Submit
+                    </button>
+                </div>
+                <h2 class="questions-h1">
+                    Rostov-on-Don, Nansen St., 239 Shopping Center <br>
+                    Decorum Tel +7 (928) 768 32 29
+                </h2>
+                <div class="questions-map-link">
+                    <div >
+                        <a href="#"><img src="./images/letter.png" width="28" 
+                            height="28" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="./images/insta.png" width="28" 
+                            height="28" alt=""></a>
+                    </div>
+                </div>
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A39a6bc27152e525b1ed69581184b24fc5f107214b70a041f548c4de16f87e6ae&amp;source=constructor" width="925" height="465" frameborder="0"></iframe>
+                <h2 class="questions-h1-mobile">
+                    Rostov-on-Don, Nansen St., 239 Shopping Center <br>
+                    Decorum Tel +7 (928) 768 32 29
+                </h2>
+                <div class="questions-map-link-mobile">
+                    <div >
+                        <a href="#"><img src="./images/letter.png" width="28" 
+                            height="28" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="./images/insta.png" width="28" 
+                            height="28" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="header">
+        <div class="conteiner header-content footer">
+            <div class="logo">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation-item"><a href="#">HOME</a></li>
+                    <li class="header-navigation-item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation-item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation-item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation-item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation-item"><a href="#">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <a class="number" href="#">+7 (928) 768-32-39</a>
+            <button class="button">Request a call</button>
+        </div>
+    </footer>
+    <script src="./scrips/script.js"></script>
+</body>
+</html>
