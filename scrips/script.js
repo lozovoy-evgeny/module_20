@@ -1,7 +1,7 @@
 "use strict";
 // Функция проверки состояния радиокнопок, возвращает порядковый номер выбранной кнопки
 function checkRadioButtons (array) {
-  x = 1;
+  let x = 1;
   for (var element of array) {
     if (element.checked) {
       return x;
