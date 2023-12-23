@@ -1145,6 +1145,7 @@ table {
 iframe {
     margin-left: 255px;
     margin-top: 43.29px;
+    border-width: 0px;
 }
 
 .footer {
