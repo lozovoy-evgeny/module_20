@@ -125,7 +125,7 @@ table {
 .hero {
     background: 
         linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)),
-        url(../images/image\%4.3.jpg);
+        url(../images/image4.3.jpg);
     background-size: cover;
     height: 707px;
 }
@@ -348,7 +348,7 @@ table {
    display: inline-block;
    width: 41.46px;
    height: 13.28px;
-   background: url(../images/arrow%to%the%left.png);
+   background: url(../images/arrowToTheLeft.png);
    background-size: 41.46px, 13.28px;
    margin: 8.77px 11.96px 8.77px 0px;
    border: none;
@@ -363,7 +363,7 @@ table {
     display: inline-block;
     width: 41.46px;
     height: 13.28px;
-    background: url(../images/arrow%to%the%right.png);
+    background: url(../images/arrowToTheRight.png);
     background-size: 41.46px, 13.28px;
     border: none;
     padding: 0;
@@ -627,7 +627,7 @@ table {
 }
 
 .tyres-of-repair-advantages {
-    background-image: url(../images/image%6.1.jpg);
+    background-image: url(../images/image6.1.jpg);
     background-size: cover;
     padding-left: 249px;
     width: 471px;
@@ -869,7 +869,7 @@ table {
 .clients {
     margin-top: 110.47px;
     height: 1106.47px;
-    background-image: url(../images/imgonline-com-ua-Mirror-YVU2VEHwZUgdaup.jpg), url(../images/bg%clients.png);
+    background-image: url(../images/imgonline-com-ua-Mirror-YVU2VEHwZUgdaup.jpg), url(../images/bgClients.png);
     background-repeat:no-repeat, no-repeat;
     background-position: right bottom, left bottom;
 }
@@ -1003,7 +1003,7 @@ table {
 .questions-map {
     background:
     linear-gradient( rgba(24, 24, 24, 0.90), rgba(24, 24, 24, 0.72)),
-    url(../images/image%7.2.jpg);
+    url(../images/image7.2.jpg);
     background-size: cover;
     height: 954px;
 }
