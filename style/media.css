@@ -1,0 +1,488 @@
+@media (max-width:1300px) {
+    .conteiner {
+        width: 375px;
+    }
+
+    .header__content {
+        height: 57px;
+    }
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .header__logo {
+        margin-left: 18px;
+        margin-right: 95.47px;
+    }
+
+    .header__number{
+        margin-right: 18px;
+    }
+
+    .hero {
+        background-size: cover;
+        background-position: center;
+        height: 476px;
+    }
+
+    .hero__content {
+        margin-left: 18px;
+        width: 357px;
+    }
+
+    .hero__title {
+        font-size: 23px;
+        padding-top: 85px;
+        padding-bottom: 16px;
+    }
+
+    .hero__rostov {
+        font-size: 23px;
+    }
+
+    .hero__text {
+        padding-bottom: 54px;
+        color: #FFF;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+    }
+    
+    .hero__button {
+        width: 338.607px;
+        margin-bottom: 26px;
+    }
+
+    .hero__button-transparent {
+        width: 338.607px;
+        margin-bottom: 26px;
+    }
+
+
+    .completed-projects {
+        height: 1553px;
+        padding-bottom: 0px;
+    }
+    
+    .completed-projects-content {
+        margin-left: 0px;
+        padding-top: 36px;
+    }
+    
+    .completed-projects-description {
+        text-align: center;
+        width: 375px;
+    }
+
+    .title-completed-projects {
+        font-size: 22px;
+        align-items: center;
+    }
+    
+    .completed-projects-text {
+        font-size: 11px;
+    }
+
+    .form_radio_group , .completed-projects-examples {
+        display: none;
+    }
+
+    .completed-projects-info {
+        width: 370px;
+        /* padding-left: 18px; */
+        text-align: left;
+
+    }
+
+    .completed-projects-info h1{
+        padding-left: 18px;
+    }
+    
+    .completed-projects-info p {
+        padding-left: 18px;
+    }
+
+    .slider-container {
+        display: block;
+        position: relative;
+        width: 340px;
+        height: 241.355px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 36.65px;
+        z-index: 1;
+    }
+      
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .prev-button,
+    .next-button {
+        position: absolute;
+        top: 43%;
+        left: 280px;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 1px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .prev-button {
+        left: 10px;
+    }
+    
+    .next-button {
+        right: 10px;
+    }
+
+    .completed-projects-info h1{
+        font-size: 14px;
+    }
+
+    .completed-projects-info p {
+        font-size: 11px;
+    }
+
+    #myVideo {
+        width: 340px;
+        height: 207px;
+    }
+
+    #playButton {
+        margin-top: -200px;
+    }
+
+    #playButton img {
+        width: 67px;
+        height: 67px;
+        margin-left: -35px;
+        margin-top: -35px;
+    }
+
+    .online-control {
+        background-size: cover;
+        height: 800px;
+        margin-top: 350px;
+    }
+
+    .online-control-rectagle {
+        padding-top: 28px;
+        padding-bottom: 28px;
+        width: 370px;
+    }
+
+    .online-control-conteiner {
+        margin-top: -1191px;
+    }
+
+    .online-control-conteiner p {
+        font-size: 11px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Nunito Sans';
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 169.8%; /* 18.678px */
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .allDevice {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .feedback-conteiner {
+        display: block;
+    }
+
+    .feedback {
+        padding-top: 23px;
+        width: 375px;
+        height: 51px;
+        margin: 0 auto;
+    }
+
+    .text-field .text-field__input {
+        border: none;
+        width: 340px;
+        /* padding-top: 7px; */
+        color: #FFF;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 163.68%;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        background-color: #131313;
+        margin-left: 18px;
+        margin-top: 62px;
+        margin-bottom: 28.3px;
+    }
+
+    .text-field .text-field__label {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.50);
+        font-family: 'Nunito Sans';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 163.68%;
+        margin-top: 35px;
+        margin-left: -340px;
+    }
+
+    .first-checkbox {
+        margin-top: 200px;
+        display: block;
+        margin-left: 18px;
+    }
+
+    #feedback-button {
+        margin-left: 18px;
+        margin-top: 80px;
+    }
+    
+    .text {
+        color: #FFF;
+        font-size: 14px;
+    }
+
+    .tyres-of-repair {
+        margin-top: 130px;
+        margin-bottom: 0px;
+        height: 1735px;
+    }
+
+    .tyres-of-repair-price {
+        height: 1689px;
+        width: 375px;
+        display: block;
+        margin-left: 0px;
+    }
+
+    .tyres-of-repair-price-conteiner {
+        width: 340px;
+        height: 365.153px;
+        margin-bottom: 178px;
+        margin-left: 18px;
+    }
+
+    .tyres-of-repair-price img{
+        width: 340px;
+        height: 365.153px;
+    }
+
+    .tyres-of-repair-price-work {
+        width: 270px;
+        height: 241px;
+        top: -142px;
+        left: 0px;
+    }
+
+    .tyres-of-repair-price-for-m2 {
+        width: 190.426px;
+        height: 40px;
+        background: #E3B873;
+        box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.30);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .tyres-of-repair-price-work p {
+        line-height: 169.8%; /* 22.074px */
+        margin-left: 31px;
+    }
+
+    .tyres-of-repair-price-work h2 {
+        line-height: 138.6%;
+        margin-left: 31px;
+        padding-top: 21px;
+        padding-bottom: 10px;
+    }
+
+    .tyres-of-repair-price-for-m2 h3 {
+        font-size: 15px;
+    }
+
+    .tyres-of-repair-advantages-numbvers-contacts {
+        display: none;
+    }
+
+    .realize {
+        display: none;
+    }
+
+    .clients {
+        display: none;
+    }
+
+    .realize-mobile {
+        display: block;
+    }
+
+    .realize-mobile h1{
+        color: #E3B873;
+        text-align: center;
+        font-family: 'Yeseva One';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 138.6%; /* 30.492px */
+        text-transform: uppercase;
+        margin-bottom: 39px;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .slider-realize img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .prev-button-realize,
+    .next-button-realize {
+        position: absolute;
+        top: 43%;
+        left: 280px;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 1px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .prev-button-realize {
+        left: 10px;
+    }
+    
+    .next-button-realize {
+        right: 10px;
+    }
+
+    .questions-map {
+        height: 1105px;
+        background: #131313;
+    }
+
+    .questions {
+        position: relative;
+        padding-top: 173px;
+        width: 375px;
+        height: 445.319px;
+        background: #131313;
+        top: -158px;
+        margin-top: 0 auto;
+        /* z-index: -1; */
+    }
+
+    .questions-namber {
+        display: block;
+    }
+
+    .text-field-contacts-1 .text-field-contact__input-1 {
+        width: 340px;
+        margin-right: 0px;
+        margin-left: 18px;
+    }
+
+    .text-field-contacts-1 .text-field-contact__label-1 {
+        margin-left: -340px;
+    }
+
+    .text-field-contacts-2 .text-field-contact__input-2 {
+        width: 340px;
+        margin-right: 0px;
+        margin-left: 18px;
+    }
+
+    .text-field-contacts-2 {
+        width: 375px;
+    }
+
+    .questions-namber-1 {
+        width: 370px;
+    }
+
+    .questions-namber-checkbox {
+        display: block;
+        margin-left: 18px;
+        margin-top: 22px;
+    }
+
+    .questions-namber-button {
+        margin-left: 18px;
+        margin-top: 67px;
+    }
+
+    .questions-map h2 {
+        font-size: 18px;
+        margin-top: 42px;
+        margin-bottom: 23.6px;
+        align-items: center;
+    }
+
+    .questions-h1 {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .questions-map-link {
+        display: none;
+    }
+
+    iframe {
+        margin-left: 18px;
+        margin-top: -40px;
+        width: 340px;
+        height: 255px;
+    }
+
+    .questions-h1-mobile {
+        display: block;
+        margin-top: 72px;
+    }
+
+    .questions-map-link-mobile {
+        display: flex;
+        width: 98px;
+        justify-content: space-between;
+        margin-left: 139px;
+    }
+
+    .questions-map-link-mobile img {
+        width: 39px;
+        height: 39px;
+    }
+
+    .icon {
+        width: 370px;
+    }
+}
